@@ -1,0 +1,39 @@
+.pop_cards{
+    width: calc(100% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    height: 100px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop_img > img{
+    height: 150px;
+    width: 90vw;
+    object-fit: cover;
+    object-position: 50% 80%;
+    z-index: 80;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(70%);
+}
+
+.pop_title{
+    position: absolute;
+    z-index: 81;
+    color: white;
+    /* display: flex; */
+    width: 90%;
+}
+.pop_load{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: #b3b3b3;
+}

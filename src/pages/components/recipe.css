@@ -1,0 +1,213 @@
+.recipe {
+  width: 124px;
+  height: 180px;
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.recipeImg {
+  width: 124px;
+  height: 124px;
+  left: 20px;
+  top: 56px;
+
+  border-radius: 20px;
+}
+
+.recipeLabel {
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 124px;
+  font-size: 10px;
+  text-align: left;
+}
+.recipeLabel > span{
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+/* *****************************Recipe Modal********************* */
+.recipeOverlay {
+  z-index: 300;
+  position: fixed;
+  width: 95%;
+  height: 70vh;
+  background: #ffffff;
+  /* -webkit-box-shadow: 3px 3px 27px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 27px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 27px -7px rgba(0, 0, 0, 0.75); */
+  -webkit-box-shadow: 0px 0px 0px 200px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 0px 200px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 0px 200px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:-10vh;
+  margin-bottom: auto;
+
+}
+
+.recipeModal {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+}
+
+.recipeModTopOne > h2 {
+  font-size: 18px;
+}
+.recipeModTopOne > img {
+  width: 100px;
+  height: 100px;
+  -webkit-box-shadow: 14px 14px 18px -9px rgba(169, 169, 169, 0.75);
+  -moz-box-shadow: 14px 14px 18px -9px rgba(159, 159, 159, 0.75);
+  box-shadow: 14px 14px 18px -9px rgba(133, 133, 133, 0.75);
+}
+
+.recipeImgModal {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+.recipeModBody {
+  /* background-color: rgb(236, 183, 196); */
+  display: flex;
+  justify-content: space-between;
+  flex: 5;
+  overflow-y: scroll;
+  /* width: 100%; */
+}
+
+.recipeModTop {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  flex: 2;
+}
+.recipemodalIcons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.recipleTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+.recipleTable > thead {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+.recipleTable > tbody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recipeModFoot{
+  display: flex;
+  flex:1;
+  justify-content: center;
+}
+.recipeModFoot > button {
+  background-color: #E23E3E;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+thead {
+  height: 60px;
+
+  padding-left: 45px;
+  padding-right: 45px;
+  /* background-color: #d38b8b; */
+}
+tr,
+th {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+}
+tr {
+  border: 1px solid rgba(69, 60, 60, 0.242);
+  height: 100%;
+}
+#greyTable {
+  background-color: rgb(255, 255, 255);
+  color: rgb(181, 89, 89);
+  font-size: 16px;
+  font-weight: bold;
+  overflow-x: hidden;
+  margin-right: 5px;
+}
+
+td {
+  width: 100%;
+  padding: 8px;
+  height: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+
+.recipeTable {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #ccc; */
+  width: 100%; /* Set the desired width */
+}
+
+.headerRow {
+  display: flex;
+  background-color: #b2b2b2;
+  font-weight: bold;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+ 
+}
+
+.headerCell,
+.bodyCell {
+  flex: 1;
+  padding: 8px;
+}
+
+.bodyRows {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling for the body */
+}
+
+.bodyRow {
+  display: flex;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  min-height: 50px;
+}
+
+#greyTable {
+  background-color: #f0f0f0;
+}

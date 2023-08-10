@@ -1,0 +1,54 @@
+.welcomePage {
+  height: 100vh;
+  width: 100vw;
+  background: url("C:\Users\ROHIT SAIN\Documents\reactapp\Recipe App Mobile\recipeappmobile\src\images\welcomeBg.png")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wel {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 100px;
+  align-items: center;
+}
+
+.welcomeP,
+.welcomeh1 {
+  color: white;
+}
+
+.welcomeh1 {
+  font-size: 50px;
+}
+
+.welcomeDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeBtn {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+
+  width: 206px;
+  height: 54px;
+  left: 85px;
+  top: 676px;
+
+  background: #ff0000;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}

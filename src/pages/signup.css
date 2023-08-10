@@ -1,0 +1,83 @@
+.signupLogin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signupImg {
+  margin: 20px;
+  animation: smoothSway 3s ease-in-out infinite;
+}
+@keyframes smoothSway {
+  0%, 100% {
+    transform: rotate(0deg); /* Start and end with no rotation */
+  }
+  10% {
+    transform: rotate(1deg); /* Rotate clockwise by 2 degrees */
+  }
+  20% {
+    transform: rotate(-1deg); /* Rotate counterclockwise by 2 degrees */
+  }
+  30% {
+    transform: rotate(2deg); /* Rotate clockwise by 3 degrees */
+  }
+  40% {
+    transform: rotate(-2deg); /* Rotate counterclockwise by 3 degrees */
+  }
+  /* Add more keyframes for a smoother effect */
+  50% {
+    transform: rotate(2deg); /* Rotate clockwise by 2 degrees */
+  }
+  60% {
+    transform: rotate(-2deg); /* Rotate counterclockwise by 2 degrees */
+  }
+  70% {
+    transform: rotate(1deg); /* Rotate clockwise by 1 degree */
+  }
+  80% {
+    transform: rotate(-1deg); /* Rotate counterclockwise by 1 degree */
+  }
+  90% {
+    transform: rotate(1deg); /* Rotate clockwise by 1 degree */
+  }
+}
+
+.signupText {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signupP {
+  font-size: 20px;
+}
+
+.signuph2 {
+  font-size: 30px;
+}
+
+.signupBtn {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  left: 85px;
+  top: 676px;
+
+  background: #E23E3E;
+  border-radius: 10px;
+}
+
+#loginModal{
+  margin-top: 10px;
+}

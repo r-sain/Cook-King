@@ -1,0 +1,128 @@
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+.homePage {
+  width: 100vw;
+  height: 100vh;
+}
+.hpHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hph1 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(60, 60, 60);
+}
+
+.hph2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  /* position: fixed; */
+  margin-bottom: 0;
+}
+
+.hpSearch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  height: 44px;
+  width: 90vw;
+  left: 20px;
+  top: 8px;
+  padding: 12px 16px;
+  gap: 12px;
+
+  background: #e7e7e7;
+  /* Neutral/20 */
+
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+.hpTrending {
+  height: 250px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+input {
+  text-align: center;
+}
+
+.trendingRecipes {
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-y: hidden;
+}
+
+.popularCategory > h3 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.popularList {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: scroll;
+}
+.pop_list_item {
+  color: rgb(138, 138, 138);
+  font-size: 18px;
+  font-weight: 600;
+}
+.pop_list_item.selected {
+  color: #E23E3E;
+}
+
+.hpNavbar {
+  width: 100vw;
+  bottom: 0;
+
+  position: absolute;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.trendingRecipes .place > img {
+  /* background-color: aqua; */
+  width: 20%;
+  margin: 10px;
+  opacity: 50%;
+}
+
+.popularCardContainer{
+  height: 34vh!important;
+  overflow-y: scroll;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  
+}
+
+.popularCardContainer > p{
+margin-top: 100px;
+color: grey;
+font-size: 15px;
+}
